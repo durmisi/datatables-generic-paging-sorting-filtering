@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTablesGenerics", "DataTablesGenerics\DataTablesGenerics.csproj", "{B39BED09-A63F-44CF-8B6A-F183226F6E87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTables.Mvc", "datatables.mvc\DataTables.Mvc\DataTables.Mvc.csproj", "{431ADB89-3DA0-4E18-9AF0-984B917E6EB8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B39BED09-A63F-44CF-8B6A-F183226F6E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B39BED09-A63F-44CF-8B6A-F183226F6E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B39BED09-A63F-44CF-8B6A-F183226F6E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B39BED09-A63F-44CF-8B6A-F183226F6E87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{431ADB89-3DA0-4E18-9AF0-984B917E6EB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{431ADB89-3DA0-4E18-9AF0-984B917E6EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{431ADB89-3DA0-4E18-9AF0-984B917E6EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{431ADB89-3DA0-4E18-9AF0-984B917E6EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
