@@ -1,10 +1,11 @@
 datatables-generic-paging-sorting-filtering
+
 ===========================================
 
-   public JsonResult GetGridData([ModelBinder(typeof(DataTablesBinder))] IDataTablesRequest requestModel)
-        {
 
-            //filtering
+      public JsonResult GetGridData([ModelBinder(typeof(DataTablesBinder))] IDataTablesRequest requestModel)
+        {
+        //filtering
             var filterExpression = new FilterExpression<User>();
 
             // Apply filter to your dataset based only on the columns that actually have a search value.
